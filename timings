@@ -336,7 +336,7 @@ local parryList = {
     { AnimationId = "rbxassetid://121310069262921", Distance = 18.0, Delay = 0.30, Dodge = false, Repeat = 2, RepeatDelay = 0.55 }, -- shark jaws
     { AnimationId = "rbxassetid://126666479594850", Distance = 18.0, Delay = 0.25, Dodge = false },                 -- shark maul
 
-        -- ========================================
+    -- ========================================
     -- Violence FIEND
     -- ========================================
     { AnimationId = "rbxassetid://99121210040163", Distance = 13.5, Delay = 0.22, Dodge = false },   -- violence fiend swing 1
@@ -347,6 +347,18 @@ local parryList = {
     { AnimationId = "rbxassetid://84364119011450", Distance = 25.0, Delay = 0.30, Dodge = false }, -- violence rampage
     { AnimationId = "rbxassetid://91411904449511", Distance = 18.0, Delay = 0.75, Dodge = false },  -- violence brutalize
     { AnimationId = "rbxassetid://118065877664242", Distance = 18.0, Delay = 0.30, Dodge = false },  -- violence seismic toss (m2 variants)
+
+    -- ========================================
+    -- Gun FIEND
+    -- ========================================
+    { AnimationId = "rbxassetid://112992734652033", Distance = 55.5, Delay = 0.22, Dodge = false },   -- gun fiend swing 1
+    { AnimationId = "rbxassetid://123162189307342", Distance = 55.5, Delay = 0.22, Dodge = false },   -- gun fiend swing 2
+    { AnimationId = "rbxassetid://119457520378723", Distance = 55.5, Delay = 0.22, Dodge = false },   -- gun fiend swing 3
+    { AnimationId = "rbxassetid://140161830497286", Distance = 55.5, Delay = 0.22, Dodge = false },   -- gun fiend swing 4
+    { AnimationId = "rbxassetid://100555275591993", Distance = 55.0, Delay = 0.30, Dodge = false, Repeat = 3, RepeatDelay = 0.2 },  -- gun critical
+    { AnimationId = "rbxassetid://96906309931363", Distance = 18.0, Delay = 0.25, Dodge = false, Repeat = 5, RepeatDelay = 0.25 }, -- gun skill 1
+    { AnimationId = "rbxassetid://123095675949421", Distance = 18.0, Delay = 0.75, Dodge = false },  -- gun skill 2
+    { AnimationId = "rbxassetid://70559632984599", Distance = 18.0, Delay = 0.30, Dodge = false },  -- gun skill 3
 
     -- ========================================
     -- BAT DEVIL / BAT ATTACKS
