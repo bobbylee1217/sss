@@ -14,10 +14,10 @@ local parryList = {
     -- ========================================
     -- FIST / UNARMED
     -- ========================================
-    { AnimationId = "rbxassetid://83170627744442", Distance = 10.9057991027832, Delay = 0.18, Dodge = false },      -- fist swing 1
-    { AnimationId = "rbxassetid://99785834052081", Distance = 10.9057991027832, Delay = 0.18, Dodge = false },      -- fist swing 2
-    { AnimationId = "rbxassetid://129319150158146", Distance = 10.92057991027832, Delay = 0.18, Dodge = false },    -- fist swing 3
-    { AnimationId = "rbxassetid://75114926121591", Distance = 10.92057991027832, Delay = 0.17, Dodge = false },     -- fist swing 4
+    { AnimationId = "rbxassetid://83170627744442", Distance = 10.9, Delay = 0.18, Dodge = false },      -- fist swing 1
+    { AnimationId = "rbxassetid://99785834052081", Distance = 10.9, Delay = 0.18, Dodge = false },      -- fist swing 2
+    { AnimationId = "rbxassetid://129319150158146", Distance = 10.9, Delay = 0.18, Dodge = false },    -- fist swing 3
+    { AnimationId = "rbxassetid://75114926121591", Distance = 10.9, Delay = 0.17, Dodge = false },     -- fist swing 4
     { AnimationId = "rbxassetid://84882180540900", Distance = 19.5, Delay = 0.47, Dodge = false },                  -- fist critical
     { AnimationId = "rbxassetid://72795592997118", Distance = 25.5, Delay = 0.18, Dodge = false },                  -- fist running attack
     { AnimationId = "rbxassetid://82402970804238", Distance = 21.5, Delay = 0.26, Dodge = false },                  -- fist aerial attack
@@ -26,29 +26,29 @@ local parryList = {
     -- ========================================
     -- SWORD (BASIC)
     -- ========================================
-    { AnimationId = "rbxassetid://139174098471434", Distance = 11.652199, Delay = 0.202, Dodge = false },           -- sword swing 1
-    { AnimationId = "rbxassetid://118176169991277", Distance = 11.652199, Delay = 0.202, Dodge = false },           -- sword swing 2
-    { AnimationId = "rbxassetid://89332566098222", Distance = 11.82199, Delay = 0.202, Dodge = false },             -- sword swing 3
-    { AnimationId = "rbxassetid://125571123165138", Distance = 11.652199, Delay = 0.202, Dodge = false },           -- sword swing 4
-    { AnimationId = "rbxassetid://134137542280552", Distance = 25.637527465820312, Delay = 0.50, Dodge = false },   -- sword critical
+    { AnimationId = "rbxassetid://139174098471434", Distance = 11.65, Delay = 0.202, Dodge = false },           -- sword swing 1
+    { AnimationId = "rbxassetid://118176169991277", Distance = 11.65, Delay = 0.202, Dodge = false },           -- sword swing 2
+    { AnimationId = "rbxassetid://89332566098222", Distance = 11.8, Delay = 0.202, Dodge = false },             -- sword swing 3
+    { AnimationId = "rbxassetid://125571123165138", Distance = 11.65, Delay = 0.202, Dodge = false },           -- sword swing 4
+    { AnimationId = "rbxassetid://134137542280552", Distance = 25.6, Delay = 0.50, Dodge = false },   -- sword critical
     { AnimationId = "rbxassetid://125936250279691", Distance = 26.5, Delay = 0.09, Dodge = false },                 -- sword running attack
 
     -- ========================================
     -- DUAL SWORD
     -- ========================================
-    { AnimationId = "rbxassetid://115797906268659", Distance = 13.995836601257324, Delay = 0.17, Dodge = false },   -- dual sword swing 1
-    { AnimationId = "rbxassetid://97177191680752", Distance = 13.995836601257324, Delay = 0.17, Dodge = false },    -- dual sword swing 2
-    { AnimationId = "rbxassetid://137815370488524", Distance = 13.995836601257324, Delay = 0.17, Dodge = false },   -- dual sword swing 3
+    { AnimationId = "rbxassetid://115797906268659", Distance = 14, Delay = 0.17, Dodge = false },   -- dual sword swing 1
+    { AnimationId = "rbxassetid://97177191680752", Distance = 14, Delay = 0.17, Dodge = false },    -- dual sword swing 2
+    { AnimationId = "rbxassetid://137815370488524", Distance = 14, Delay = 0.17, Dodge = false },   -- dual sword swing 3
     { AnimationId = "rbxassetid://78842969890728", Distance = 26.5, Delay = 0.34, Dodge = false, Repeat = 2, RepeatDelay = 0.32 }, -- dual sword critical
     { AnimationId = "rbxassetid://131376945188225", Distance = 27.5, Delay = 0.19, Dodge = false },                 -- dual sword running attack
 
     -- ========================================
     -- KATANA / KATANA HYBRID
     -- ========================================
-    { AnimationId = "rbxassetid://92347535171309", Distance = 13.6747407913208, Delay = 0.20, Dodge = false },      -- katana hybrid swing 1
-    { AnimationId = "rbxassetid://103478794733427", Distance = 13.6747407913208, Delay = 0.20, Dodge = false },     -- katana hybrid swing 2
-    { AnimationId = "rbxassetid://77311081382802", Distance = 13.6747407913208, Delay = 0.20, Dodge = false },      -- katana hybrid swing 3
-    { AnimationId = "rbxassetid://119794946808722", Distance = 13.6747407913208, Delay = 0.20, Dodge = false },     -- katana hybrid swing 4
+    { AnimationId = "rbxassetid://92347535171309", Distance = 13.67, Delay = 0.20, Dodge = false },      -- katana hybrid swing 1
+    { AnimationId = "rbxassetid://103478794733427", Distance = 13.67, Delay = 0.20, Dodge = false },     -- katana hybrid swing 2
+    { AnimationId = "rbxassetid://77311081382802", Distance = 13.67, Delay = 0.20, Dodge = false },      -- katana hybrid swing 3
+    { AnimationId = "rbxassetid://119794946808722", Distance = 13.67, Delay = 0.20, Dodge = false },     -- katana hybrid swing 4
     { AnimationId = "rbxassetid://108797839748822", Distance = 21.5, Delay = 0.54, Dodge = false },                 -- katana hybrid critical
     { AnimationId = "rbxassetid://118374669758371", Distance = 25.5, Delay = 0.09, Dodge = false },                 -- katana hybrid running attack
     { AnimationId = "rbxassetid://84691763419445", Distance = 30.5, Delay = 0.38, Dodge = false },                  -- fast dash katana hybrid
@@ -77,10 +77,10 @@ local parryList = {
     -- ========================================
     -- SCARLET SWORD
     -- ========================================
-    { AnimationId = "rbxassetid://113268215947804", Distance = 12.682654647827148, Delay = 0.20, Dodge = false },   -- scarlet sword swing 1
-    { AnimationId = "rbxassetid://133205147259868", Distance = 12.682654647827148, Delay = 0.22, Dodge = false },   -- scarlet sword swing 2
-    { AnimationId = "rbxassetid://72880223582562", Distance = 12.682654647827148, Delay = 0.22, Dodge = false },    -- scarlet sword swing 3
-    { AnimationId = "rbxassetid://101604973817807", Distance = 12.682654647827148, Delay = 0.22, Dodge = false },   -- scarlet sword swing 4
+    { AnimationId = "rbxassetid://113268215947804", Distance = 12.7, Delay = 0.20, Dodge = false },   -- scarlet sword swing 1
+    { AnimationId = "rbxassetid://133205147259868", Distance = 12.7, Delay = 0.22, Dodge = false },   -- scarlet sword swing 2
+    { AnimationId = "rbxassetid://72880223582562", Distance = 12.7, Delay = 0.22, Dodge = false },    -- scarlet sword swing 3
+    { AnimationId = "rbxassetid://101604973817807", Distance = 12.7, Delay = 0.22, Dodge = false },   -- scarlet sword swing 4
     { AnimationId = "rbxassetid://100896894192926", Distance = 23.5, Delay = 0.49, Dodge = false },                 -- scarlet sword critical
     { AnimationId = "rbxassetid://139374816012669", Distance = 26.9, Delay = 0.19, Dodge = false },                 -- scarlet sword running attack
 
@@ -97,10 +97,10 @@ local parryList = {
     -- ========================================
     -- ROT SWORD
     -- ========================================
-    { AnimationId = "rbxassetid://129855748333858", Distance = 11.952767181396484, Delay = 0.17, Dodge = false },   -- rot sword swing 1
-    { AnimationId = "rbxassetid://134181836683161", Distance = 11.952767181396484, Delay = 0.17, Dodge = false },   -- rot sword swing 2
-    { AnimationId = "rbxassetid://102597139088834", Distance = 11.952767181396484, Delay = 0.17, Dodge = false },   -- rot sword swing 3
-    { AnimationId = "rbxassetid://100288926167133", Distance = 11.952767181396484, Delay = 0.17, Dodge = false },   -- rot sword swing 4
+    { AnimationId = "rbxassetid://129855748333858", Distance = 12, Delay = 0.17, Dodge = false },   -- rot sword swing 1
+    { AnimationId = "rbxassetid://134181836683161", Distance = 12, Delay = 0.17, Dodge = false },   -- rot sword swing 2
+    { AnimationId = "rbxassetid://102597139088834", Distance = 12, Delay = 0.17, Dodge = false },   -- rot sword swing 3
+    { AnimationId = "rbxassetid://100288926167133", Distance = 12, Delay = 0.17, Dodge = false },   -- rot sword swing 4
     { AnimationId = "rbxassetid://106013309621307", Distance = 19.5, Delay = 0.78, Dodge = false, Repeat = 2, RepeatDelay = 0.80 }, -- rot sword critical
     { AnimationId = "rbxassetid://98392933263355", Distance = 26.5, Delay = 0.33, Dodge = false },                  -- rot sword running attack
 
@@ -117,10 +117,10 @@ local parryList = {
     -- ========================================
     -- GREATSWORD
     -- ========================================
-    { AnimationId = "rbxassetid://135802138221890", Distance = 12.529351997375488, Delay = 0.33, Dodge = false },   -- greatsword swing 1
-    { AnimationId = "rbxassetid://118339406620980", Distance = 12.529351997375488, Delay = 0.34, Dodge = false },   -- greatsword swing 2
-    { AnimationId = "rbxassetid://119537814529732", Distance = 12.529351997375488, Delay = 0.34, Dodge = false },   -- greatsword swing 3
-    { AnimationId = "rbxassetid://101268939874208", Distance = 12.529351997375488, Delay = 0.34, Dodge = false },   -- greatsword swing 4
+    { AnimationId = "rbxassetid://135802138221890", Distance = 12.5, Delay = 0.33, Dodge = false },   -- greatsword swing 1
+    { AnimationId = "rbxassetid://118339406620980", Distance = 12.5, Delay = 0.34, Dodge = false },   -- greatsword swing 2
+    { AnimationId = "rbxassetid://119537814529732", Distance = 12.5, Delay = 0.34, Dodge = false },   -- greatsword swing 3
+    { AnimationId = "rbxassetid://101268939874208", Distance = 12.5, Delay = 0.34, Dodge = false },   -- greatsword swing 4
     { AnimationId = "rbxassetid://132423234621948", Distance = 18.5, Delay = 0.65, Dodge = false },                 -- greatsword critical
     { AnimationId = "rbxassetid://126943584876522", Distance = 26.5, Delay = 0.07, Dodge = false },                 -- greatsword running attack
     { AnimationId = "rbxassetid://102749369195648", Distance = 25.0, Delay = 0.55, Dodge = false, Repeat = 2, RepeatDelay = 0.75 }, -- gs bisection
@@ -128,51 +128,51 @@ local parryList = {
     -- ========================================
     -- DAGGER
     -- ========================================
-    { AnimationId = "rbxassetid://95592305575287", Distance = 10.986570510864258, Delay = 0.16, Dodge = false },    -- dagger swing 1
-    { AnimationId = "rbxassetid://97504155433185", Distance = 10.986570510864258, Delay = 0.16, Dodge = false },    -- dagger swing 2
-    { AnimationId = "rbxassetid://137901650114553", Distance = 10.886570510864258, Delay = 0.16, Dodge = false },   -- dagger swing 3
-    { AnimationId = "rbxassetid://71420013211462", Distance = 10.986570510864258, Delay = 0.15, Dodge = false },    -- dagger swing 4
+    { AnimationId = "rbxassetid://95592305575287", Distance = 11, Delay = 0.16, Dodge = false },    -- dagger swing 1
+    { AnimationId = "rbxassetid://97504155433185", Distance = 11, Delay = 0.16, Dodge = false },    -- dagger swing 2
+    { AnimationId = "rbxassetid://137901650114553", Distance = 11, Delay = 0.16, Dodge = false },   -- dagger swing 3
+    { AnimationId = "rbxassetid://71420013211462", Distance = 11, Delay = 0.15, Dodge = false },    -- dagger swing 4
     { AnimationId = "rbxassetid://102790860802603", Distance = 22.5, Delay = 0.56, Dodge = false },                 -- dagger critical
     { AnimationId = "rbxassetid://113014104453621", Distance = 22.5, Delay = 0.75, Dodge = false },                 -- dagger critical (alt)
-    { AnimationId = "rbxassetid://73189775256758", Distance = 25.8117733001709, Delay = 0.07, Dodge = false },      -- dagger running attack
+    { AnimationId = "rbxassetid://73189775256758", Distance = 25.8, Delay = 0.07, Dodge = false },      -- dagger running attack
 
     -- ========================================
     -- DUAL DAGGER
     -- ========================================
-    { AnimationId = "rbxassetid://90303043747701", Distance = 14.623376846313477, Delay = 0.16, Dodge = false },    -- dual dagger swing 1
-    { AnimationId = "rbxassetid://73033593102525", Distance = 14.623376846313477, Delay = 0.16, Dodge = false },    -- dual dagger swing 2
-    { AnimationId = "rbxassetid://89307684071889", Distance = 14.623376846313477, Delay = 0.16, Dodge = false },    -- dual dagger swing 3
-    { AnimationId = "rbxassetid://115670609737438", Distance = 14.623376846313477, Delay = 0.16, Dodge = false },   -- dual dagger swing 4
+    { AnimationId = "rbxassetid://90303043747701", Distance = 14.6, Delay = 0.16, Dodge = false },    -- dual dagger swing 1
+    { AnimationId = "rbxassetid://73033593102525", Distance = 14.6, Delay = 0.16, Dodge = false },    -- dual dagger swing 2
+    { AnimationId = "rbxassetid://89307684071889", Distance = 14.6, Delay = 0.16, Dodge = false },    -- dual dagger swing 3
+    { AnimationId = "rbxassetid://115670609737438", Distance = 14.6, Delay = 0.16, Dodge = false },   -- dual dagger swing 4
     { AnimationId = "rbxassetid://106719097885109", Distance = 24.5, Delay = 0.45, Dodge = true },                  -- dual dagger critical (DODGE)
     { AnimationId = "rbxassetid://127716005072935", Distance = 27.5, Delay = 0.11, Dodge = false },                 -- dual dagger running attack
 
     -- ========================================
     -- SICKLES
     -- ========================================
-    { AnimationId = "rbxassetid://125351403307657", Distance = 11.47940483093262, Delay = 0.21, Dodge = false },    -- sickles swing 1
-    { AnimationId = "rbxassetid://87673107583059", Distance = 11.47940483093262, Delay = 0.21, Dodge = false },     -- sickles swing 2
-    { AnimationId = "rbxassetid://99589308896321", Distance = 11.47940483093262, Delay = 0.21, Dodge = false },     -- sickles swing 3
-    { AnimationId = "rbxassetid://93712797216935", Distance = 11.47940483093262, Delay = 0.21, Dodge = false },     -- sickles swing 4
+    { AnimationId = "rbxassetid://125351403307657", Distance = 11.5, Delay = 0.21, Dodge = false },    -- sickles swing 1
+    { AnimationId = "rbxassetid://87673107583059", Distance = 11.5, Delay = 0.21, Dodge = false },     -- sickles swing 2
+    { AnimationId = "rbxassetid://99589308896321", Distance = 11.5, Delay = 0.21, Dodge = false },     -- sickles swing 3
+    { AnimationId = "rbxassetid://93712797216935", Distance = 11.5, Delay = 0.21, Dodge = false },     -- sickles swing 4
     { AnimationId = "rbxassetid://90648436096048", Distance = 25, Delay = 0.16, Dodge = false },                    -- sickles running attack
     { AnimationId = "rbxassetid://106187325444182", Distance = 90.799, Delay = 0.90, Dodge = false },               -- undead sickle critical
 
     -- ========================================
     -- AXE
     -- ========================================
-    { AnimationId = "rbxassetid://96430744634231", Distance = 11.818086624145508, Delay = 0.21, Dodge = false },    -- axe swing 1
-    { AnimationId = "rbxassetid://112280382670167", Distance = 11.818086624145508, Delay = 0.19, Dodge = false },   -- axe swing 2
-    { AnimationId = "rbxassetid://126257103110325", Distance = 11.818086624145508, Delay = 0.19, Dodge = false },   -- axe swing 3
-    { AnimationId = "rbxassetid://70550631174539", Distance = 11.818086624145508, Delay = 0.19, Dodge = false },    -- axe swing 4
+    { AnimationId = "rbxassetid://96430744634231", Distance = 11.8, Delay = 0.21, Dodge = false },    -- axe swing 1
+    { AnimationId = "rbxassetid://112280382670167", Distance = 11.8, Delay = 0.19, Dodge = false },   -- axe swing 2
+    { AnimationId = "rbxassetid://126257103110325", Distance = 11.8, Delay = 0.19, Dodge = false },   -- axe swing 3
+    { AnimationId = "rbxassetid://70550631174539", Distance = 11.8, Delay = 0.19, Dodge = false },    -- axe swing 4
     { AnimationId = "rbxassetid://113834682033104", Distance = 23.5, Delay = 0.59, Dodge = false },                 -- axe critical
     { AnimationId = "rbxassetid://71244457428229", Distance = 25.5, Delay = 0.11, Dodge = false },                  -- axe running attack
 
     -- ========================================
     -- HAMMER
     -- ========================================
-    { AnimationId = "rbxassetid://108494510731610", Distance = 12.837753295898438, Delay = 0.46, Dodge = false },   -- hammer swing 1
-    { AnimationId = "rbxassetid://110406562971902", Distance = 12.837753295898438, Delay = 0.46, Dodge = false },   -- hammer swing 2
-    { AnimationId = "rbxassetid://80639118737924", Distance = 12.837753295898438, Delay = 0.46, Dodge = false },    -- hammer swing 3
-    { AnimationId = "rbxassetid://72371046889893", Distance = 12.837753295898438, Delay = 0.46, Dodge = false },    -- hammer swing 4
+    { AnimationId = "rbxassetid://108494510731610", Distance = 12.8, Delay = 0.46, Dodge = false },   -- hammer swing 1
+    { AnimationId = "rbxassetid://110406562971902", Distance = 12.8, Delay = 0.46, Dodge = false },   -- hammer swing 2
+    { AnimationId = "rbxassetid://80639118737924", Distance = 12.8, Delay = 0.46, Dodge = false },    -- hammer swing 3
+    { AnimationId = "rbxassetid://72371046889893", Distance = 12.8, Delay = 0.46, Dodge = false },    -- hammer swing 4
     { AnimationId = "rbxassetid://83003081767769", Distance = 16.5, Delay = 0.55, Dodge = false },                  -- hammer critical
     { AnimationId = "rbxassetid://123499498138784", Distance = 27.5, Delay = 0.12, Dodge = false },                 -- hammer running attack
 
@@ -188,32 +188,32 @@ local parryList = {
     -- ========================================
     -- RAZOR HALBERD
     -- ========================================
-    { AnimationId = "rbxassetid://116948609204236", Distance = 12.972926139831543, Delay = 0.33, Dodge = false },   -- razor halberd swing 1
-    { AnimationId = "rbxassetid://88055010695849", Distance = 12.972926139831543, Delay = 0.33, Dodge = false },    -- razor halberd swing 2
-    { AnimationId = "rbxassetid://117416838233330", Distance = 12.972926139831543, Delay = 0.33, Dodge = false },   -- razor halberd swing 3
-    { AnimationId = "rbxassetid://84790818560573", Distance = 12.972926139831543, Delay = 0.33, Dodge = false },    -- razor halberd swing 4
+    { AnimationId = "rbxassetid://116948609204236", Distance = 13, Delay = 0.33, Dodge = false },   -- razor halberd swing 1
+    { AnimationId = "rbxassetid://88055010695849", Distance = 13, Delay = 0.33, Dodge = false },    -- razor halberd swing 2
+    { AnimationId = "rbxassetid://117416838233330", Distance = 13, Delay = 0.33, Dodge = false },   -- razor halberd swing 3
+    { AnimationId = "rbxassetid://84790818560573", Distance = 13, Delay = 0.33, Dodge = false },    -- razor halberd swing 4
     { AnimationId = "rbxassetid://99528925126794", Distance = 17.5, Delay = 0.40, Dodge = false, Repeat = 2, RepeatDelay = 0.45 }, -- razor halberd critical
     { AnimationId = "rbxassetid://130187498552231", Distance = 21.5, Delay = 0.31, Dodge = false },                 -- razor halberd running attack
-    { AnimationId = "rbxassetid://91074807969609", Distance = 45.972926139831543, Delay = 0.20, Dodge = false },    -- ghost arm
+    { AnimationId = "rbxassetid://91074807969609", Distance = 46, Delay = 0.20, Dodge = false },    -- ghost arm
 
     -- ========================================
     -- SCISSOR BLADE
     -- ========================================
-    { AnimationId = "rbxassetid://102596372833810", Distance = 15.963078498840332, Delay = 0.41, Dodge = false },   -- scissor blade swing 1
-    { AnimationId = "rbxassetid://92559491465927", Distance = 13.963078498840332, Delay = 0.41, Dodge = false },    -- scissor blade swing 2
-    { AnimationId = "rbxassetid://112832095441188", Distance = 13.963078498840332, Delay = 0.41, Dodge = false },   -- scissor blade swing 3
-    { AnimationId = "rbxassetid://87276698608760", Distance = 13.963078498840332, Delay = 0.41, Dodge = false },    -- scissor blade swing 4
+    { AnimationId = "rbxassetid://102596372833810", Distance = 16, Delay = 0.41, Dodge = false },   -- scissor blade swing 1
+    { AnimationId = "rbxassetid://92559491465927", Distance = 14, Delay = 0.41, Dodge = false },    -- scissor blade swing 2
+    { AnimationId = "rbxassetid://112832095441188", Distance = 14, Delay = 0.41, Dodge = false },   -- scissor blade swing 3
+    { AnimationId = "rbxassetid://87276698608760", Distance = 14, Delay = 0.41, Dodge = false },    -- scissor blade swing 4
     { AnimationId = "rbxassetid://111619494197919", Distance = 17.5, Delay = 0.53, Dodge = false, Repeat = 2, RepeatDelay = 0.59 }, -- scissor critical
     { AnimationId = "rbxassetid://135219429513260", Distance = 23.5, Delay = 0.32, Dodge = false },                 -- scissor running attack
 
     -- ========================================
     -- ROTAND RUIN
     -- ========================================
-    { AnimationId = "rbxassetid://78940054179950", Distance = 17.059022903442383, Delay = 0.32, Dodge = false },    -- rotand ruin swing 1
-    { AnimationId = "rbxassetid://83707871739410", Distance = 17.059022903442383, Delay = 0.33, Dodge = false },    -- rotand swing 2
-    { AnimationId = "rbxassetid://88515182783630", Distance = 17.059022903442383, Delay = 0.35, Dodge = false },    -- rotand swing 3
-    { AnimationId = "rbxassetid://88529291334531", Distance = 17.059022903442383, Delay = 0.32, Dodge = false },    -- rotand swing 4
-    { AnimationId = "rbxassetid://91342131793707", Distance = 17.059022903442383, Delay = 0.35, Dodge = false, Repeat = 33, RepeatDelay = 0.05 }, -- rotand critical
+    { AnimationId = "rbxassetid://78940054179950", Distance = 17, Delay = 0.32, Dodge = false },    -- rotand ruin swing 1
+    { AnimationId = "rbxassetid://83707871739410", Distance = 17, Delay = 0.33, Dodge = false },    -- rotand swing 2
+    { AnimationId = "rbxassetid://88515182783630", Distance = 17, Delay = 0.35, Dodge = false },    -- rotand swing 3
+    { AnimationId = "rbxassetid://88529291334531", Distance = 17, Delay = 0.32, Dodge = false },    -- rotand swing 4
+    { AnimationId = "rbxassetid://91342131793707", Distance = 17, Delay = 0.35, Dodge = false, Repeat = 33, RepeatDelay = 0.05 }, -- rotand critical
     { AnimationId = "rbxassetid://89947536068263", Distance = 27.5, Delay = 0.17, Dodge = false },                  -- rotand running attack
 
     -- ========================================
@@ -227,28 +227,28 @@ local parryList = {
     -- ========================================
     -- DEVILCRUSHER
     -- ========================================
-    { AnimationId = "rbxassetid://72716101431005", Distance = 12.95600814819336, Delay = 0.16, Dodge = false },     -- devilcrusher swing 1
-    { AnimationId = "rbxassetid://114393492422894", Distance = 12.95600814819336, Delay = 0.16, Dodge = false },    -- devilcrusher swing 2
-    { AnimationId = "rbxassetid://98961744431023", Distance = 12.95600814819336, Delay = 0.16, Dodge = false },     -- devilcrusher swing 3
-    { AnimationId = "rbxassetid://102225002431566", Distance = 12.95600814819336, Delay = 0.16, Dodge = false },    -- devilcrusher swing 4
+    { AnimationId = "rbxassetid://72716101431005", Distance = 13, Delay = 0.16, Dodge = false },     -- devilcrusher swing 1
+    { AnimationId = "rbxassetid://114393492422894", Distance = 13, Delay = 0.16, Dodge = false },    -- devilcrusher swing 2
+    { AnimationId = "rbxassetid://98961744431023", Distance = 13, Delay = 0.16, Dodge = false },     -- devilcrusher swing 3
+    { AnimationId = "rbxassetid://102225002431566", Distance = 13, Delay = 0.16, Dodge = false },    -- devilcrusher swing 4
     { AnimationId = "rbxassetid://91841671178746", Distance = 26.5, Delay = 0.91, Dodge = false },                  -- devilcrusher critical
 
     -- ========================================
     -- FLESHBREAKER
     -- ========================================
-    { AnimationId = "rbxassetid://85964235716367", Distance = 11.929243087768555, Delay = 0.16, Dodge = false },    -- fleshbreaker swing 1
-    { AnimationId = "rbxassetid://138301923963329", Distance = 11.929243087768555, Delay = 0.16, Dodge = false },   -- fleshbreaker swing 2
-    { AnimationId = "rbxassetid://87069745086938", Distance = 11.929243087768555, Delay = 0.16, Dodge = false },    -- fleshbreaker swing 3
-    { AnimationId = "rbxassetid://97144244689985", Distance = 11.929243087768555, Delay = 0.16, Dodge = false },    -- fleshbreaker swing 4
+    { AnimationId = "rbxassetid://85964235716367", Distance = 11.9, Delay = 0.16, Dodge = false },    -- fleshbreaker swing 1
+    { AnimationId = "rbxassetid://138301923963329", Distance = 11.9, Delay = 0.16, Dodge = false },   -- fleshbreaker swing 2
+    { AnimationId = "rbxassetid://87069745086938", Distance = 11.9, Delay = 0.16, Dodge = false },    -- fleshbreaker swing 3
+    { AnimationId = "rbxassetid://97144244689985", Distance = 11.9, Delay = 0.16, Dodge = false },    -- fleshbreaker swing 4
     { AnimationId = "rbxassetid://121912122097580", Distance = 15.0, Delay = 0.32, Dodge = false },                 -- fleshbreaker crit
 
     -- ========================================
     -- BRAINSPLASHER
     -- ========================================
-    { AnimationId = "rbxassetid://89475662129258", Distance = 19.313701629638672, Delay = 0.22, Dodge = false },    -- brainsplasher swing 1
-    { AnimationId = "rbxassetid://118258669929146", Distance = 19.313701629638672, Delay = 0.22, Dodge = false },   -- brainsplasher swing 2
-    { AnimationId = "rbxassetid://93891386436024", Distance = 26.313701629638672, Delay = 0.22, Dodge = false },    -- brainsplasher swing 3
-    { AnimationId = "rbxassetid://115096781003171", Distance = 19.313701629638672, Delay = 0.22, Dodge = false },   -- brainsplasher swing 4
+    { AnimationId = "rbxassetid://89475662129258", Distance = 19.3, Delay = 0.22, Dodge = false },    -- brainsplasher swing 1
+    { AnimationId = "rbxassetid://118258669929146", Distance = 19.3, Delay = 0.22, Dodge = false },   -- brainsplasher swing 2
+    { AnimationId = "rbxassetid://93891386436024", Distance = 26.3, Delay = 0.22, Dodge = false },    -- brainsplasher swing 3
+    { AnimationId = "rbxassetid://115096781003171", Distance = 19.3, Delay = 0.22, Dodge = false },   -- brainsplasher swing 4
     { AnimationId = "rbxassetid://117416560814575", Distance = 22.5, Delay = 0.54, Dodge = true },                  -- brainsplasher critical (DODGE)
 
     -- ========================================
@@ -259,7 +259,7 @@ local parryList = {
     { AnimationId = "rbxassetid://118375375261508", Distance = 19.0, Delay = 0.23, Dodge = false },                 -- crosspunisher swing 3
     { AnimationId = "rbxassetid://81298915826190", Distance = 19.8, Delay = 0.23, Dodge = false },                  -- crosspunisher swing 4
     { AnimationId = "rbxassetid://82791907545703", Distance = 26.5, Delay = 0.60, Dodge = true },                   -- crosspunisher critical (DODGE)
-    { AnimationId = "rbxassetid://117614545746430", Distance = 31.106149673461914, Delay = 0.17, Dodge = false },   -- crosspunisher running attack
+    { AnimationId = "rbxassetid://117614545746430", Distance = 31.1, Delay = 0.17, Dodge = false },   -- crosspunisher running attack
 
     -- ========================================
     -- YEAR SWORDS (5/10/100 YEAR)
@@ -291,35 +291,35 @@ local parryList = {
     -- FIREARMS (AK47 / FIREARM / UZI)
     -- ========================================
     -- AK47
-    { AnimationId = "rbxassetid://81093093791947", Distance = 18.53822135925293, Delay = 0.20, Dodge = false },     -- ak47 swing 1
-    { AnimationId = "rbxassetid://127265672754416", Distance = 18.53822135925293, Delay = 0.19, Dodge = false },    -- ak47 swing 2
-    { AnimationId = "rbxassetid://95187086967174", Distance = 30.350584030151367, Delay = 0.17, Dodge = false },    -- ak47 swing 3
-    { AnimationId = "rbxassetid://119071326400759", Distance = 18.53822135925293, Delay = 0.20, Dodge = false },    -- ak47 swing 4
+    { AnimationId = "rbxassetid://81093093791947", Distance = 18.5, Delay = 0.20, Dodge = false },     -- ak47 swing 1
+    { AnimationId = "rbxassetid://127265672754416", Distance = 18.5, Delay = 0.19, Dodge = false },    -- ak47 swing 2
+    { AnimationId = "rbxassetid://95187086967174", Distance = 30.35, Delay = 0.17, Dodge = false },    -- ak47 swing 3
+    { AnimationId = "rbxassetid://119071326400759", Distance = 18.5, Delay = 0.20, Dodge = false },    -- ak47 swing 4
     -- Firearm (Generic)
-    { AnimationId = "rbxassetid://116937962567393", Distance = 17.321610450744629, Delay = 0.23, Dodge = false },   -- firearm swing 1
-    { AnimationId = "rbxassetid://133853808650941", Distance = 17.321610450744629, Delay = 0.23, Dodge = false },   -- firearm swing 2
-    { AnimationId = "rbxassetid://121073263747297", Distance = 17.321610450744629, Delay = 0.23, Dodge = false },   -- firearm swing 3
-    { AnimationId = "rbxassetid://93431132327822", Distance = 17.321610450744629, Delay = 0.23, Dodge = false },    -- firearm swing 4
+    { AnimationId = "rbxassetid://116937962567393", Distance = 17.3, Delay = 0.23, Dodge = false },   -- firearm swing 1
+    { AnimationId = "rbxassetid://133853808650941", Distance = 17.3, Delay = 0.23, Dodge = false },   -- firearm swing 2
+    { AnimationId = "rbxassetid://121073263747297", Distance = 17.3, Delay = 0.23, Dodge = false },   -- firearm swing 3
+    { AnimationId = "rbxassetid://93431132327822", Distance = 17.3, Delay = 0.23, Dodge = false },    -- firearm swing 4
     { AnimationId = "rbxassetid://98375305489054", Distance = 55.5, Delay = 0.48, Dodge = false, Repeat = 4, RepeatDelay = 0.32 }, -- firearm critical
-    { AnimationId = "rbxassetid://76781925254248", Distance = 31.479318618774414, Delay = 0.14, Dodge = false },    -- firearm running attack
+    { AnimationId = "rbxassetid://76781925254248", Distance = 31.5, Delay = 0.14, Dodge = false },    -- firearm running attack
     { AnimationId = "rbxassetid://78653732575949", Distance = 70, Delay = 1.01, Dodge = false },                    -- greenshot critical
     -- Uzi
-    { AnimationId = "rbxassetid://116907204347021", Distance = 18.815397453308105, Delay = 0.105, Dodge = false },  -- uzi swing 1
-    { AnimationId = "rbxassetid://78520899606944", Distance = 19.815397453308105, Delay = 0.105, Dodge = false },   -- uzi swing 2
+    { AnimationId = "rbxassetid://116907204347021", Distance = 18.8, Delay = 0.105, Dodge = false },  -- uzi swing 1
+    { AnimationId = "rbxassetid://78520899606944", Distance = 19.8, Delay = 0.105, Dodge = false },   -- uzi swing 2
     { AnimationId = "rbxassetid://99361142840295", Distance = 28, Delay = 0.105, Dodge = false },                   -- uzi swing 3
-    { AnimationId = "rbxassetid://93357544618400", Distance = 19.815397453308105, Delay = 0.105, Dodge = false },   -- uzi swing 4
+    { AnimationId = "rbxassetid://93357544618400", Distance = 19.8, Delay = 0.105, Dodge = false },   -- uzi swing 4
     { AnimationId = "rbxassetid://120048428697484", Distance = 25.5, Delay = 0.44, Dodge = false, Repeat = 2, RepeatDelay = 0.595 }, -- uzi critical
     { AnimationId = "rbxassetid://85339796481382", Distance = 14.0, Delay = 0.24, Dodge = false },                  -- pistolwhip
     { AnimationId = "rbxassetid://107767339677031", Distance = 30.0, Delay = 0.05, Dodge = true },                  -- bullet storm (DODGE)
-    { AnimationId = "rbxassetid://100763501434406", Distance = 46.73799133300781, Delay = 0.45, Dodge = false, Repeat = 2, RepeatDelay = 0.50 }, -- jackpot firearm skill
+    { AnimationId = "rbxassetid://100763501434406", Distance = 46.7, Delay = 0.45, Dodge = false, Repeat = 2, RepeatDelay = 0.50 }, -- jackpot firearm skill
 
     -- ========================================
     -- NAIL FIEND
     -- ========================================
-    { AnimationId = "rbxassetid://117196948797125", Distance = 12.693218231201172, Delay = 0.23, Dodge = false },   -- nail fiend swing 1
-    { AnimationId = "rbxassetid://96430107593955", Distance = 12.693218231201172, Delay = 0.23, Dodge = false },    -- nail fiend swing 2
-    { AnimationId = "rbxassetid://79294213380648", Distance = 12.693218231201172, Delay = 0.22, Dodge = false },    -- nail fiend swing 3
-    { AnimationId = "rbxassetid://128641773780380", Distance = 12.693218231201172, Delay = 0.22, Dodge = false },   -- nail fiend swing 4
+    { AnimationId = "rbxassetid://117196948797125", Distance = 12.7, Delay = 0.23, Dodge = false },   -- nail fiend swing 1
+    { AnimationId = "rbxassetid://96430107593955", Distance = 12.7, Delay = 0.23, Dodge = false },    -- nail fiend swing 2
+    { AnimationId = "rbxassetid://79294213380648", Distance = 12.7, Delay = 0.22, Dodge = false },    -- nail fiend swing 3
+    { AnimationId = "rbxassetid://128641773780380", Distance = 12.7, Delay = 0.22, Dodge = false },   -- nail fiend swing 4
     { AnimationId = "rbxassetid://119366440833103", Distance = 19.5, Delay = 0.46, Dodge = false, Repeat = 3, RepeatDelay = 0.83 }, -- nail fiend critical
     { AnimationId = "rbxassetid://71726735162615", Distance = 22.5, Delay = 0.40, Dodge = false, Repeat = 4, RepeatDelay = 0.55 }, -- nail bounce
     { AnimationId = "rbxassetid://124983172519493", Distance = 27.5, Delay = 0.20, Dodge = false },                 -- nail fiend running attack
@@ -328,13 +328,25 @@ local parryList = {
     -- ========================================
     -- SHARK FIEND
     -- ========================================
-    { AnimationId = "rbxassetid://107049572669140", Distance = 13.641839027404785, Delay = 0.21, Dodge = false },   -- shark fiend swing 1
-    { AnimationId = "rbxassetid://116781362921741", Distance = 13.641839027404785, Delay = 0.21, Dodge = false },   -- shark fiend swing 2
-    { AnimationId = "rbxassetid://124298892076543", Distance = 13.641839027404785, Delay = 0.21, Dodge = false },   -- shark fiend swing 3
-    { AnimationId = "rbxassetid://126406892829032", Distance = 30.641839027404785, Delay = 0.21, Dodge = false },   -- shark fiend swing 4
+    { AnimationId = "rbxassetid://107049572669140", Distance = 13.6, Delay = 0.21, Dodge = false },   -- shark fiend swing 1
+    { AnimationId = "rbxassetid://116781362921741", Distance = 13.6, Delay = 0.21, Dodge = false },   -- shark fiend swing 2
+    { AnimationId = "rbxassetid://124298892076543", Distance = 13.6, Delay = 0.21, Dodge = false },   -- shark fiend swing 3
+    { AnimationId = "rbxassetid://126406892829032", Distance = 30.6, Delay = 0.21, Dodge = false },   -- shark fiend swing 4
     { AnimationId = "rbxassetid://112665344245966", Distance = 18.0, Delay = 0.30, Dodge = true },                  -- shark uppercut (DODGE)
     { AnimationId = "rbxassetid://121310069262921", Distance = 18.0, Delay = 0.30, Dodge = false, Repeat = 2, RepeatDelay = 0.55 }, -- shark jaws
     { AnimationId = "rbxassetid://126666479594850", Distance = 18.0, Delay = 0.25, Dodge = false },                 -- shark maul
+
+        -- ========================================
+    -- Violence FIEND
+    -- ========================================
+    { AnimationId = "rbxassetid://99121210040163", Distance = 13.5, Delay = 0.22, Dodge = false },   -- violence fiend swing 1
+    { AnimationId = "rbxassetid://101280452044019", Distance = 13.5, Delay = 0.22, Dodge = false },   -- violence fiend swing 2
+    { AnimationId = "rbxassetid://126608254795335", Distance = 13.5, Delay = 0.22, Dodge = false },   -- violence fiend swing 3
+    { AnimationId = "rbxassetid://94805217467478", Distance = 13.5, Delay = 0.22, Dodge = false },   -- violence fiend swing 4
+    { AnimationId = "rbxassetid://81617302042749", Distance = 18.0, Delay = 0.30, Dodge = false },  -- violence beatdown
+    { AnimationId = "rbxassetid://84364119011450", Distance = 25.0, Delay = 0.30, Dodge = false }, -- violence rampage
+    { AnimationId = "rbxassetid://91411904449511", Distance = 18.0, Delay = 0.75, Dodge = false },  -- violence brutalize
+    { AnimationId = "rbxassetid://118065877664242", Distance = 18.0, Delay = 0.30, Dodge = false },  -- violence seismic toss (m2 variants)
 
     -- ========================================
     -- BAT DEVIL / BAT ATTACKS
@@ -371,7 +383,7 @@ local parryList = {
     { AnimationId = "rbxassetid://94783189330933", Distance = 19.0, Delay = 0.16, Dodge = false, Repeat = 2, RepeatDelay = 0.84 }, -- reoccuring strikes
     { AnimationId = "rbxassetid://121610200528946", Distance = 17.0, Delay = 0.15, Dodge = false },                 -- rando fang
     { AnimationId = "rbxassetid://108407067157515", Distance = 25.0, Delay = 0.95, Dodge = false, Repeat = 5, RepeatDelay = 0.53 }, -- waterfall waltz
-    { AnimationId = "rbxassetid://98067867897649", Distance = 16.017008781433105, Delay = 0.62, Dodge = false },    -- blightshot
+    { AnimationId = "rbxassetid://98067867897649", Distance = 16, Delay = 0.62, Dodge = false },    -- blightshot
     { AnimationId = "rbxassetid://84118640051654", Distance = 14.5, Delay = 0.45, Dodge = false },                  -- iron drift
     { AnimationId = "rbxassetid://139102550443102", Distance = 18.0, Delay = 0.7, Dodge = false },                  -- skybreaker
     { AnimationId = "rbxassetid://118737931852734", Distance = 15.0, Delay = 0.40, Dodge = false },                 -- skybreaker (alt)
@@ -390,8 +402,8 @@ local parryList = {
     { AnimationId = "rbxassetid://91402134057760", Distance = 23.0, Delay = 0.48, Dodge = false },                  -- ironclad thrust
     { AnimationId = "rbxassetid://125750843182333", Distance = 23.0, Delay = 0.46, Dodge = false, Repeat = 3, RepeatDelay = 0.72 }, -- landsplitter
     { AnimationId = "rbxassetid://108117067910919", Distance = 20.0, Delay = 0.24, Dodge = true },                  -- edge rider (DODGE)
-    { AnimationId = "rbxassetid://100209652951882", Distance = 15.736977577209473, Delay = 0.35, Dodge = false, Repeat = 2, RepeatDelay = 0.50 }, -- whirlwind slash
-    { AnimationId = "rbxassetid://81268534444911", Distance = 17.640905380249023, Delay = 0.60, Dodge = false },    -- flash draw
+    { AnimationId = "rbxassetid://100209652951882", Distance = 15.7, Delay = 0.35, Dodge = false, Repeat = 2, RepeatDelay = 0.50 }, -- whirlwind slash
+    { AnimationId = "rbxassetid://81268534444911", Distance = 17.6, Delay = 0.60, Dodge = false },    -- flash draw
     { AnimationId = "rbxassetid://128389082852013", Distance = 20.0, Delay = 0.37, Dodge = false },                 -- blitzcut
     { AnimationId = "rbxassetid://115842491968911", Distance = 25.0, Delay = 0.45, Dodge = false },                 -- windbreaker
     { AnimationId = "rbxassetid://105216815586895", Distance = 24.0, Delay = 0.15, Dodge = false },                 -- feral whirlwind
@@ -399,11 +411,11 @@ local parryList = {
     { AnimationId = "rbxassetid://111469597121344", Distance = 14.0, Delay = 0.66, Dodge = false },                 -- deadly impale
     { AnimationId = "rbxassetid://84310303507836", Distance = 25.0, Delay = 0.04, Dodge = true },                   -- thousand stab readfile (DODGE)
     { AnimationId = "rbxassetid://123925906794646", Distance = 23.0, Delay = 0.20, Dodge = false },                 -- thousand stab
-    { AnimationId = "rbxassetid://87836197455524", Distance = 18.483247756958008, Delay = 0.15, Dodge = false },    -- shredder
-    { AnimationId = "rbxassetid://115276870777429", Distance = 15.804174423217773, Delay = 0.19, Dodge = false },   -- skullcrusher
-    { AnimationId = "rbxassetid://88281715895375", Distance = 17.217764854431152, Delay = 0.27, Dodge = false },    -- gazelle punch
+    { AnimationId = "rbxassetid://87836197455524", Distance = 18.5, Delay = 0.15, Dodge = false },    -- shredder
+    { AnimationId = "rbxassetid://115276870777429", Distance = 15.8, Delay = 0.19, Dodge = false },   -- skullcrusher
+    { AnimationId = "rbxassetid://88281715895375", Distance = 17.2, Delay = 0.27, Dodge = false },    -- gazelle punch
     { AnimationId = "rbxassetid://113898112403888", Distance = 25.0, Delay = 0.48, Dodge = false },                 -- headbutt
-    { AnimationId = "rbxassetid://111024136790516", Distance = 13.643683433532715, Delay = 0.25, Dodge = false },   -- suplex
+    { AnimationId = "rbxassetid://111024136790516", Distance = 13.6, Delay = 0.25, Dodge = false },   -- suplex
     { AnimationId = "rbxassetid://100351193638035", Distance = 25.0, Delay = 0.14, Dodge = false },                 -- shoulder charge
     { AnimationId = "rbxassetid://139601534028982", Distance = 25.0, Delay = 0.84, Dodge = false, Repeat = 2, RepeatDelay = 1.10 }, -- whirlwind cleaver
     { AnimationId = "rbxassetid://70671254080081", Distance = 25.0, Delay = 0.32, Dodge = false },                  -- eviscerate
@@ -422,7 +434,7 @@ local parryList = {
     -- DEVIL CONTRACTS / TRANSFORMATIONS
     -- ========================================
     -- Mantis Devil
-    { AnimationId = "rbxassetid://95603862911846", Distance = 101.22582244873047, Delay = 0.20, Dodge = true },     -- mantis devil hand (DODGE)
+    { AnimationId = "rbxassetid://95603862911846", Distance = 101.2, Delay = 0.20, Dodge = true },     -- mantis devil hand (DODGE)
     -- Snake Devil
     { AnimationId = "rbxassetid://117722804257040", Distance = 30.0, Delay = 0.56, Dodge = false },                 -- snake devil
     -- Sea Cucumber Devil
