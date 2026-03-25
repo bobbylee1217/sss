@@ -10,45 +10,45 @@
 -- RepeatDelay = Time between repeated parries
 
 local parryList = {
-   { AnimationId = "rbxassetid://13401152492", Distance = 10.5, Delay = 0.18, Dodge = false }, - Fist 1
-   { AnimationId = "rbxassetid://13401154871", Distance = 10.5, Delay = 0.18, Dodge = false }, - Fist 2
-   { AnimationId = "rbxassetid://13401157028", Distance = 10.5, Delay = 0.18, Dodge = false }, - Fist 3
-   { AnimationId = "rbxassetid://13401160357", Distance = 10.5, Delay = 0.18, Dodge = false }, - Fist 4
-   { AnimationId = "rbxassetid://13201778572", Distance = 10.5, Delay = 0.18, Dodge = false }, - Fist 5
-   { AnimationId = "rbxassetid://13401154871", Distance = 10.5, Delay = 0.20, Dodge = false }, - Fist Run Swing
-   { AnimationId = "rbxassetid://13999191009", Distance = 10.5, Delay = 0.18, Dodge = false }, - Fist One Two Punch
+   { AnimationId = "rbxassetid://13401152492", Distance = 10.5, Delay = 0.18, Dodge = false }, -- Fist 1
+   { AnimationId = "rbxassetid://13401154871", Distance = 10.5, Delay = 0.18, Dodge = false }, -- Fist 2
+   { AnimationId = "rbxassetid://13401157028", Distance = 10.5, Delay = 0.18, Dodge = false }, -- Fist 3
+   { AnimationId = "rbxassetid://13401160357", Distance = 10.5, Delay = 0.18, Dodge = false }, -- Fist 4
+   { AnimationId = "rbxassetid://13201778572", Distance = 10.5, Delay = 0.18, Dodge = false }, -- Fist 5
+   { AnimationId = "rbxassetid://13401154871", Distance = 10.5, Delay = 0.20, Dodge = false }, -- Fist Run Swing
+   { AnimationId = "rbxassetid://13999191009", Distance = 10.5, Delay = 0.18, Dodge = false }, -- Fist One Two Punch
 
 -- SWORD (BASIC)
-   { AnimationId = "rbxassetid://13201752394", Distance = 11.5, Delay = 0.20, Dodge = false }, - Sword 1
-   { AnimationId = "rbxassetid://13201762170", Distance = 11.5, Delay = 0.20, Dodge = false }, - Sword 2
-   { AnimationId = "rbxassetid://13201768794", Distance = 11.5, Delay = 0.20, Dodge = false }, - Sword 3
-   { AnimationId = "rbxassetid://13201772943", Distance = 11.5, Delay = 0.20, Dodge = false }, - Sword 4
-   { AnimationId = "rbxassetid://13201778572", Distance = 11.5, Delay = 0.20, Dodge = false }, - Sword 5
-   { AnimationId = "rbxassetid://13191761678", Distance = 11.5, Delay = 0.20, Dodge = false }, - Sword Run Swing
+   { AnimationId = "rbxassetid://13201752394", Distance = 11.5, Delay = 0.20, Dodge = false }, -- Sword 1
+   { AnimationId = "rbxassetid://13201762170", Distance = 11.5, Delay = 0.20, Dodge = false }, -- Sword 2
+   { AnimationId = "rbxassetid://13201768794", Distance = 11.5, Delay = 0.20, Dodge = false }, -- Sword 3
+   { AnimationId = "rbxassetid://13201772943", Distance = 11.5, Delay = 0.20, Dodge = false }, -- Sword 4
+   { AnimationId = "rbxassetid://13201778572", Distance = 11.5, Delay = 0.20, Dodge = false }, -- Sword 5
+   { AnimationId = "rbxassetid://13191761678", Distance = 11.5, Delay = 0.20, Dodge = false }, -- Sword Run Swing
 
 -- SWORD (2 Handed)
-   { AnimationId = "rbxassetid://139578511247534", Distance = 11.5, Delay = 0.20, Dodge = false }, - Sword 1
-   { AnimationId = "rbxassetid://70861279929468", Distance = 11.5, Delay = 0.20, Dodge = false }, - Sword 2
-   { AnimationId = "rbxassetid://121372725455349", Distance = 11.5, Delay = 0.20, Dodge = false }, - Sword 3
-   { AnimationId = "rbxassetid://95680227625811", Distance = 11.5, Delay = 0.20, Dodge = false }, - Sword 4
-   { AnimationId = "rbxassetid://13201778572", Distance = 11.5, Delay = 0.20, Dodge = false }, - Sword 5
-   { AnimationId = "rbxassetid://103112625386223", Distance = 11.5, Delay = 0.20, Dodge = false }, - Sword Run Swing
+   { AnimationId = "rbxassetid://139578511247534", Distance = 11.5, Delay = 0.20, Dodge = false }, -- Sword 1
+   { AnimationId = "rbxassetid://70861279929468", Distance = 11.5, Delay = 0.20, Dodge = false }, -- Sword 2
+   { AnimationId = "rbxassetid://121372725455349", Distance = 11.5, Delay = 0.20, Dodge = false }, -- Sword 3
+   { AnimationId = "rbxassetid://95680227625811", Distance = 11.5, Delay = 0.20, Dodge = false }, -- Sword 4
+   { AnimationId = "rbxassetid://13201778572", Distance = 11.5, Delay = 0.20, Dodge = false }, -- Sword 5
+   { AnimationId = "rbxassetid://103112625386223", Distance = 11.5, Delay = 0.20, Dodge = false }, -- Sword Run Swing
 
 -- Greatsword
-   { AnimationId = "rbxassetid://17298526165", Distance = 12.5, Delay = 0.30, Dodge = false }, - Greatsword 1
-   { AnimationId = "rbxassetid://17298527978", Distance = 12.5, Delay = 0.30, Dodge = false }, - Greatsword 2
-   { AnimationId = "rbxassetid://17298531009", Distance = 12.5, Delay = 0.30, Dodge = false }, - Greatsword 3
-   { AnimationId = "rbxassetid://17298537735", Distance = 12.5, Delay = 0.30, Dodge = false }, - Greatsword 4
-   { AnimationId = "rbxassetid://13201778572", Distance = 12.5, Delay = 0.30, Dodge = false }, - Greatsword 5
-   { AnimationId = "rbxassetid://17298557719", Distance = 12.5, Delay = 0.30, Dodge = false }, - Greatsword Run Swing
+   { AnimationId = "rbxassetid://17298526165", Distance = 12.5, Delay = 0.30, Dodge = false }, -- Greatsword 1
+   { AnimationId = "rbxassetid://17298527978", Distance = 12.5, Delay = 0.30, Dodge = false }, -- Greatsword 2
+   { AnimationId = "rbxassetid://17298531009", Distance = 12.5, Delay = 0.30, Dodge = false }, -- Greatsword 3
+   { AnimationId = "rbxassetid://17298537735", Distance = 12.5, Delay = 0.30, Dodge = false }, -- Greatsword 4
+   { AnimationId = "rbxassetid://13201778572", Distance = 12.5, Delay = 0.30, Dodge = false }, -- Greatsword 5
+   { AnimationId = "rbxassetid://17298557719", Distance = 12.5, Delay = 0.30, Dodge = false }, -- Greatsword Run Swing
 
 -- Spear
-   { AnimationId = "rbxassetid://15319543609", Distance = 12.5, Delay = 0.25, Dodge = false }, - Spear 1
-   { AnimationId = "rbxassetid://15319553487", Distance = 12.5, Delay = 0.25, Dodge = false }, - Spear 2
-   { AnimationId = "rbxassetid://15319570510", Distance = 12.5, Delay = 0.25, Dodge = false }, - Spear 3
-   { AnimationId = "rbxassetid://15319575789", Distance = 12.5, Delay = 0.25, Dodge = false }, - Spear 4
-   { AnimationId = "rbxassetid://13201778572", Distance = 12.5, Delay = 0.25, Dodge = false }, - Spear 5
-   { AnimationId = "rbxassetid://15323218695", Distance = 12.5, Delay = 0.25, Dodge = false }, - Spear Run Swing
+   { AnimationId = "rbxassetid://15319543609", Distance = 12.5, Delay = 0.25, Dodge = false }, -- Spear 1
+   { AnimationId = "rbxassetid://15319553487", Distance = 12.5, Delay = 0.25, Dodge = false }, -- Spear 2
+   { AnimationId = "rbxassetid://15319570510", Distance = 12.5, Delay = 0.25, Dodge = false }, -- Spear 3
+   { AnimationId = "rbxassetid://15319575789", Distance = 12.5, Delay = 0.25, Dodge = false }, -- Spear 4
+   { AnimationId = "rbxassetid://13201778572", Distance = 12.5, Delay = 0.25, Dodge = false }, -- Spear 5
+   { AnimationId = "rbxassetid://15323218695", Distance = 12.5, Delay = 0.25, Dodge = false }, -- Spear Run Swing
 }
 
 return parryList
